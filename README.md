@@ -1,6 +1,6 @@
 # Chat Application Documentation
 
-This documentation provides information on how to use, set up, and run the Chat Application project.
+This documentation provides information on how to use, set up, and run the Chat Application.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This documentation provides information on how to use, set up, and run the Chat 
 
 ## 1. Introduction
 
-The Chat Application is a real-time chat platform that allows users to log in, sign up, and participate in chat rooms. Users can join a chat room, send messages, and view the chat history. The project is built using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. Socket.IO is used for real-time communication.
+The Chat Application is a real-time chat platform that allows users to log in, sign up, and participate in chat room. Users can join a chat room, send messages, and view the chat history. The project is built using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. Socket.IO is used for real-time communication.
 
 ## 2. Technologies Used
 
@@ -55,22 +55,25 @@ The project is organized into the following main components:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chat-application.git
+   git clone https://github.com/SubhajitSK/Real-Time-Chat-Application.git
    cd chat-application
    ```
 2. Install the dependencies:
    ```bash
    cd frontend
    npm install
+   ```
+   ```bash
    cd ../backend
    npm install
    ```
 3. Create a `.env` file in the `backend` directory.
    and add the following environment variables:
+
    ```bash
    MONGODB_URI=your_mongodb_connection_string
-   PORT=3001
-   JWT_SECRET= Your_secret_token
+   JWT_SECRET= Your_secret_token (can be any string)
+   PORT=3001 (or any other port)
    ```
 
 ## 5. Running the Project
