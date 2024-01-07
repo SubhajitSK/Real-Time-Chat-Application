@@ -51,6 +51,8 @@ The project is organized into the following main components:
 - **App.jsx:** Main React application component.
 - **Server.js:** Entry point for the Node.js server.
 
+The backend server is configured to serve the frontend's static files from the `dist` folder. This allows both the frontend and backend to run seamlessly on the same port.
+
 ## 4. Setting Up the Project
 
 1. Clone the repository:
@@ -165,3 +167,11 @@ This should allow you to access the Chat Application in your browser.
 - **Socket.IO Connection:**
   - Verify that the Socket.IO connection is established in the browser console.
   - Check for errors related to socket connections.
+
+## Trouble Implementing "Who Is Typing" Feature
+
+Unfortunately, I'm currently facing challenges while implementing the "Who Is Typing" feature in the application. Despite my efforts, the functionality is not working as intended.
+
+I'm actively working on resolving this issue, and I appreciate your patience. If you have any insights or suggestions that could help in overcoming this obstacle, please feel free to share them.
+
+Thank you for your understanding.
