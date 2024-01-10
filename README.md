@@ -1,4 +1,4 @@
-# Chat Application Documentation
+# ChatSync Application Documentation
 
 This documentation provides information on how to use, set up, and run the Chat Application.
 
@@ -15,7 +15,7 @@ This documentation provides information on how to use, set up, and run the Chat 
 
 ## Introduction
 
-The Chat Application is a real-time chat platform that allows users to log in, sign up, and participate in chat room. Users can join a chat room, send messages, and view the chat history. The project is built using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. Socket.IO is used for real-time communication.
+The ChatSync is a real-time chat platform that allows users to log in, sign up, and participate in chat room. Users can join a chat room, send messages, and view the chat history. The project is built using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. Socket.IO is used for real-time communication.
 
 ## Technologies Used
 
