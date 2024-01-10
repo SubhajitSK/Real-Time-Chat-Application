@@ -105,7 +105,7 @@ Combine your IPv4 address with the port number, for example:
 192.168.29.108:3001
 ```
 
-Open your web browser and go to the combined address:
+Open your web browser and go to the combined address, for example:
 
 ```bash
 http://192.168.29.108:3001
