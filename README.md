@@ -4,20 +4,20 @@ This documentation provides information on how to use, set up, and run the Chat 
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Technologies Used](#technologies-used)
-3. [Project Structure](#project-structure)
-4. [Setting Up the Project](#setting-up-the-project)
-5. [Running the Project](#running-the-project)
-6. [Features](#features)
-7. [API Endpoints](#api-endpoints)
-8. [Troubleshooting](#troubleshooting)
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Setting Up the Project](#setting-up-the-project)
+- [Running the Project](#running-the-project)
+- [Features](#features)
+- [API Endpoints](#api-endpoints)
+- [Troubleshooting](#troubleshooting)
 
-## 1. Introduction
+## Introduction
 
 The Chat Application is a real-time chat platform that allows users to log in, sign up, and participate in chat room. Users can join a chat room, send messages, and view the chat history. The project is built using React for the frontend, Node.js with Express for the backend, and MongoDB for data storage. Socket.IO is used for real-time communication.
 
-## 2. Technologies Used
+## Technologies Used
 
 - **Frontend:**
 
@@ -37,7 +37,7 @@ The Chat Application is a real-time chat platform that allows users to log in, s
   - cors
   - socket.io
 
-## 3. Project Structure
+## Project Structure
 
 The project is organized into the following main components:
 
@@ -53,7 +53,7 @@ The project is organized into the following main components:
 
 The backend server is configured to serve the frontend's static files from the `dist` folder. This allows both the frontend and backend to run seamlessly on the same port.
 
-## 4. Setting Up the Project
+## Setting Up the Project
 
 1. Clone the repository:
    ```bash
@@ -78,7 +78,7 @@ The backend server is configured to serve the frontend's static files from the `
    PORT=3001 (or any other port)
    ```
 
-## 5. Running the Project
+## Running the Project
 
 Start the backend server:
 
@@ -113,7 +113,7 @@ http://192.168.29.108:3001
 
 This should allow you to access the Chat Application in your browser.
 
-## 6. Features
+## Features
 
 - **User Authentication:**
 
@@ -136,7 +136,7 @@ This should allow you to access the Chat Application in your browser.
   - User data is managed using MongoDB and Mongoose.
   - Users can log out, and their data is removed from the session.
 
-## 7. API Endpoints
+## API Endpoints
 
 ### Authentication:
 
@@ -148,7 +148,7 @@ This should allow you to access the Chat Application in your browser.
 - `GET /api/messages/:room`: Retrieve chat messages for a specific room.
 - `DELETE /api/messages/:room`: Delete all chat messages for a specific room.
 
-## 8. Troubleshooting
+## Troubleshooting
 
 - **MongoDB Connection:**
 
