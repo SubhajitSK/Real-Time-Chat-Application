@@ -172,6 +172,4 @@ This should allow you to access the Chat Application in your browser.
 
 Unfortunately, I'm currently facing challenges while implementing the "Who Is Typing" feature in the application. Despite my efforts, the functionality is not working as intended.
 
-I'm actively working on resolving this issue, and I appreciate your patience. If you have any insights or suggestions that could help in overcoming this obstacle, please feel free to share them.
-
 Thank you for your understanding.
