@@ -22,6 +22,7 @@ The ChatSync is a real-time chat platform that allows users to log in, sign up, 
 - **Frontend:**
 
   - React
+  - Tailwind
   - react-router-dom
   - axios
   - socket.io-client
